@@ -1,7 +1,7 @@
 import numpy as np 
 
 from math import log
-from utils.grimshaw import grimshaw
+from .utils.grimshaw import grimshaw
 
 
 def pot(data:np.array, risk:float=1e-4, init_level:float=0.98, num_candidates:int=10, epsilon:float=1e-8) -> float:

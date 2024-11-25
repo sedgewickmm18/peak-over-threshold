@@ -1,7 +1,7 @@
 import numpy as np
 
-from pot import pot
-from utils.grimshaw import grimshaw
+from .pot import pot
+from .utils.grimshaw import grimshaw
 
 
 def dspot(data:np.array, num_init:int, depth:int, risk:float):
